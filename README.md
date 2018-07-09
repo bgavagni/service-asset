@@ -1,6 +1,6 @@
 ### Summary:
 This example project provides a set of REST APIs that facilitate uploading, 
-storing and retrieving assets. The project hosted on Google App Engine and utilizes Google Cloud Storage for asset storage.
+storing and retrieving assets. The project is hosted on Google App Engine and utilizes Google Cloud Storage for asset storage.
 
 
 ### Addressed Requirements:
