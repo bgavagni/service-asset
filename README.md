@@ -23,6 +23,7 @@ the original filename in the response.
 
 
 Additional Completed Requirements:
+
 ● Add an endpoint that returns a list of all files in the system, their
 identifier, original filename, and the byte size of the file.
 REST API:
