@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+    <title>Asset Service Endpoints</title>
+  </head>
+
+  <body>
+    <h1>Asset Service Endpoints</h1>
+  
+    <table>
+      <tr>
+        <td colspan="2" style="font-weight:bold;">Upload Endpoint: /api/asset/upload</td>     
+      </tr>
+      <tr>
+        <td>
+          <form action="/api/asset/upload" target="_blank" method="POST" enctype="multipart/form-data">
+	        <input name="file" id="file" type="file" />
+	        <br>
+            <button name="submit" type="submit">Upload</button>
+          </form>
+        </td>
+      </tr>
+      <tr>
+        <td><br><br></td>
+      </tr>
+      <tr>
+        <td colspan="2" style="font-weight:bold;">Retrieve Endpoint: /api/asset/retrieve</td>     
+      </tr>
+      <tr>
+        <td>
+          <form action="/api/asset/retrieve" target="_blank" method="GET">
+	        Id:<input name="id" id="id" type="text" />
+	        <br>
+            <button name="submit" type="submit">Retrieve</button>
+          </form>
+        </td>
+      </tr>
+      <tr>
+        <td><br><br></td>
+      </tr>
+      <tr>
+        <td colspan="2" style="font-weight:bold;">List Endpoint: /api/asset/list</td>     
+      </tr>
+      <tr>
+        <td>
+          <form action="/api/asset/list" target="_blank" method="GET">
+            <button name="submit" type="submit">List</button>
+          </form>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
