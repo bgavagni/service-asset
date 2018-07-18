@@ -93,4 +93,3 @@ scalable, and robust handling of object storage.
 Finally, the JAX-RS REST API implementation can be easily ported to 
 AWSElastic BeanStalk or AWS Lambda for future REST API hosting of the
 solution. Additionally, AWS S3 could be substituted for asset storage.
-New Document
